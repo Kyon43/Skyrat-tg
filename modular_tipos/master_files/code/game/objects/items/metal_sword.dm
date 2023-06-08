@@ -1,5 +1,5 @@
 /obj/item/metal_sword
-	name = "Metal Sword"
+	name = "Metal Sword 2"
 	desc = "A rusty metal sword"
 	icon = 'icons/obj/weapons/sword.dmi'
 	icon_state = "metal_sword"
