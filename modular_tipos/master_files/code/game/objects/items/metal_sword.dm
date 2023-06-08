@@ -1,0 +1,19 @@
+/obj/item/metal_sword
+	name = "Metal Sword"
+	desc = "A rusty metal sword"
+	icon = 'icons/obj/weapons/sword.dmi'
+	icon_state = "metal_sword"
+	inhand_icon_state = "metal_sword"
+	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
+	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_BACK
+	force = 20
+	throwforce = 10
+	w_class = WEIGHT_CLASS_NORMAL
+	attack_verb_continuous = list("attacks", "slashes", "stabs", "slices", "tears", "lacerates", "rips", "dices", "cuts")
+	attack_verb_simple = list("attack", "slash", "stab", "slice", "tear", "lacerate", "rip", "dice", "cut")
+	block_chance = 25
+	block_sound = 'sound/weapons/parry.ogg'
+	max_integrity = 350
+	armor_type = /datum/armor/item_claymore
+	resistance_flags = FIRE_PROOF
