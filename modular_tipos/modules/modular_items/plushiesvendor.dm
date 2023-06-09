@@ -13,8 +13,6 @@
 
 	//STUFF SOLD HERE//
 	products = list(
-
-
 					/obj/item/toy/plush/carpplushie = 5,
                     /obj/item/toy/plush/slimeplushie = 5,
                     /obj/item/toy/plush/moth = 5,
@@ -31,8 +29,8 @@
                      /obj/item/toy/plush/nukeplushie = 5
                      )
 	contraband = list(
-					/obj/item/toy/plush/tipos/akira = 1,
-					/obj/item/toy/plush/tipos/foxte_maid = 1
+					/obj/item/toy/plush/tipos/foxte_maid = 1,
+					/obj/item/toy/plush/tipos/akira = 1
 					)
 
 	payment_department = ACCOUNT_SRV
