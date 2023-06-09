@@ -7073,8 +7073,6 @@
 #include "modular_skyrat\modules\xenos_skyrat_redo\code\xeno_types\spitter.dm"
 #include "modular_skyrat\modules\xenos_skyrat_redo\code\xeno_types\warrior.dm"
 #include "modular_tipos\modules\altborgs\code\robot_modules.dm"
-#include "modular_tipos\modules\customization\modules\game\objects\items\fox_maid.dm"
-#include "modular_tipos\modules\customization\modules\game\objects\items\plushie_akira.dm"
 #include "modular_tipos\modules\customization\modules\mob\dead\new_player\sprite_accesories\ears.dm"
 #include "modular_tipos\modules\modular_items\plushiesvendor.dm"
 // END_INCLUDE
