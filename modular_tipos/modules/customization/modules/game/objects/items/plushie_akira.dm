@@ -4,4 +4,4 @@
 	icon_state = "plushie_akira"
 	attack_verb_continuous = list("geckers", "boops", "nuzzles")
 	attack_verb_simple = list("gecker", "boop", "nuzzle")
-	squeak_override = list('modular_skyrat/modules/customization/game/objects/items/sound/akira.ogg' = 1)
+	squeak_override = list('modular_tipos/modules/customization//modules/game/objects/items/sound/akira.ogg' = 1)
