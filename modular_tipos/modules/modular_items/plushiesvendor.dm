@@ -36,3 +36,21 @@
 	payment_department = ACCOUNT_SRV
 	default_price = 30
 	extra_price = 250
+
+
+/obj/machinery/vending/plushies/update_icon_state()
+	..()
+	if(machine_stat & BROKEN)
+		icon_state = "[base_icon_state]-broken"
+		return
+
+	icon_state = "[base_icon_state][powered() ? null : "-off"]"
+
+/obj/machinery/vending/plushies/attackby(obj/item/O, mob/living/user, params)
+	if(default_deconstruction_screwdriver(user, icon_state, icon_state, O))
+		if(panel_open)
+			add_overlay("[initial(icon_state)]-panel")
+		else
+			cut_overlay("[initial(icon_state)]-panel")
+		SStgui.update_uis(src)
+		return
